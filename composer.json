@@ -1,0 +1,19 @@
+{
+  "name": "fathurraihan/composer-lib-tutor",
+  "description": "create-own-library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Muhammad Fathurraihan Saputra",
+      "email": "fthrn.s14@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ProjectLib\\": "src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^3.5"
+  }
+}
